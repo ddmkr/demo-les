@@ -40,7 +40,7 @@ test_mc(correct = 2, feedback_msgs = c(msg_bad, msg_success, msg_bad, msg_bad))
 ```
 
 --- type:NormalExercise lang:r xp:100 skills:1 key:88eed71620
-## More movies
+## More Cooool movies
 
 In the previous exercise, you saw a dataset about movies. In this exercise, we'll have a look at yet another dataset about movies!
 
@@ -73,6 +73,8 @@ rm(Movies)
 # movie_selection is available in your workspace
 
 # Check out the structure of movie_selection
+library(dplyr)
+
 
 
 # Select movies that have a rating of 5 or higher: good_movies
